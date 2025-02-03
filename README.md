@@ -30,7 +30,7 @@
 
 4. Dato un array di numeri interi già definito come:
    
-  int[] numeri = {1, 25, -4, 36, 0, -1, -4, 27, 3, -1, -1, 52};
+      int[] numeri = {1, 25, -4, 36, 0, -1, -4, 27, 3, -1, -1, 52};
 
   scrivere un programma che prende in input un numero intero dall’utente e stampa se questo numero è presente o meno nell’array numeri.
   
