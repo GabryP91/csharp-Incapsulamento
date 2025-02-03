@@ -88,7 +88,7 @@ namespace csharp_Incapsulamento
                         mioCellulare.CreditoResiduo();
                         Console.WriteLine("Ultimo numero chiamato: " + mioCellulare.UltimaChiamataEffettuata());
                         mioCellulare.Richiama();
-
+                        mioCellulare.RicaricaCredito(2.1);
 
                         break;
                     case 2:
@@ -319,8 +319,7 @@ namespace csharp_Incapsulamento
 
         public void RicaricaCredito(double importo)
         {
-            //Credito += importo;
-            Console.WriteLine("Credito ricaricato di: " + Credito);
+            Credito += importo;
         }
     }
 }
