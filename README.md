@@ -7,15 +7,18 @@
    
     Dotare la classe di quattro metodi:
    
-    a. Il metodo “chiama”, che simula una chiamata, stampando a schermo: “sto chiamando il
-    numero: “, corredata da un numero di esempio. La chiamata può partire solo se il credito
-    è maggiore di 0.
+        a. Il metodo “chiama”, che simula una chiamata, stampando a schermo: “sto chiamando il
+        numero: “, corredata da un numero di esempio. La chiamata può partire solo se il credito
+        è maggiore di 0.
+       
+        b. Il metodo “creditoResiduo”, che stampa a schermo il credito residuo.
+       
+        c. Il metodo “ultimaChiamataEffettuata”, che ritorna l’ultimo numero chiamato dall’utente.
+       
+        d. Il metodo “richiama”, che chiama l’ultimo numero che è stato chiamato.
+       
+        e. Il metodo “ricaricaCredito”, che ricarica il credito del cellulare.
    
-    b. Il metodo “creditoResiduo”, che stampa a schermo il credito residuo.
-   
-    c. Il metodo “ultimaChiamataEffettuata”, che ritorna l’ultimo numero chiamato dall’utente.
-    d. Il metodo “richiama”, che chiama l’ultimo numero che è stato chiamato.
-    e. Il metodo “ricaricaCredito”, che ricarica il credito del cellulare.
     Consiglio: int potrebbe essere un tipo di dato non adatto a contenere numeri di telefono,
     utilizzare String.
    
