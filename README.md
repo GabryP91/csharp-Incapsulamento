@@ -10,20 +10,22 @@
     a. Il metodo “chiama”, che simula una chiamata, stampando a schermo: “sto chiamando il
     numero: “, corredata da un numero di esempio. La chiamata può partire solo se il credito
     è maggiore di 0.
+   
     b. Il metodo “creditoResiduo”, che stampa a schermo il credito residuo.
+   
     c. Il metodo “ultimaChiamataEffettuata”, che ritorna l’ultimo numero chiamato dall’utente.
     d. Il metodo “richiama”, che chiama l’ultimo numero che è stato chiamato.
     e. Il metodo “ricaricaCredito”, che ricarica il credito del cellulare.
     Consiglio: int potrebbe essere un tipo di dato non adatto a contenere numeri di telefono,
     utilizzare String.
    
-2. Dopo aver fatto l’esercizio 1:
+3. Dopo aver fatto l’esercizio 1:
   • Istanziare un’oggetto della classe Cellulare
   • Simulare una chiamata
   • Controllare il credito residuo
   • Controllare l’ultimo numero chiamato
 
-3. Dato un array di numeri interi già definito come:
+4. Dato un array di numeri interi già definito come:
    
   int[] numeri = {1, 25, -4, 36, 0, -1, -4, 27, 3, -1, -1, 52};
 
